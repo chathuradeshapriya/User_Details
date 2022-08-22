@@ -87,7 +87,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       snapshot.data[index].name,
                       style: TextStyle(color: Colors.black, fontSize: 20),
                     ),
-                    textColor: Colors.black,
+                    textColor: Colors.red,
                     subtitle: Text(snapshot.data[index].body),
                     tileColor: Colors.grey,
 
